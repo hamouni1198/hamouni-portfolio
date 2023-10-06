@@ -355,7 +355,7 @@ ul {
         color: black;
         cursor: pointer;
 }
-@media  (max-width: 390px) {
+@media  (max-width: 624px) {
     #header .navbar{
         display: none;
     }
