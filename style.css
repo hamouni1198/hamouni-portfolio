@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montserrat:wght@300&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@700&family=Marcellus&family=Tektur&family=Zeyada&display=swap');@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@700&family=Tektur&display=swap');
+body{
+    padding: 0px 0px;
+    margin:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+
+}
+h1{
+    font-family: 'Shippori Antique B1', sans-serif;
+    
+}
+#header{
+    padding: 40px 120px;
+    background-image: url(./image/Untitled-1.jpg);
+    width: 72%;
+    height: 98vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:300px;
+    
+   
+}
+.page{
+    display:flex;
+    align-items:center;
+    gap: 30%;
+    justify-content: space-between;
+}
+.navbar{
+    justify-content: space-between;
+}
+span{
+    color: rgb(128, 231, 245);
+    font-family: 'Josefin Slab', serif;}
+.navbar h1{
+    
+    font-family: 'Josefin Slab', serif;
+}
+#header .page .icon i{
+    font-size: 25px;
+    display: none;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap:7rem;
+    list-style: none;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.navbar ul li a{
+    color: white;
+    position: relative;
+}
+.navbar ul li a::after{
+    content: "";
+    background-color:rgb(128, 231, 245);
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom:-6px;
+    left: 0px;
+    transition: 0.5s;
+    }
+.navbar ul li a:hover::after {
+        width: 100%;
+}
+
+.info1 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 7px;
+    padding-top: 200px;
+    font-family: 'Cormorant Garamond', serif;
+}
+#page2{
+    padding: 80px 200px;
+    display: flex;
+}
+#page2 p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.img2 img{
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px white;
+    width: 300px;
+}
+.info{
+    padding-left: 47px;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab-titles {
+    display: flex;
+    margin: 10px 0 40px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(128, 231, 245);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after {
+    width: 100%;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+
+.tab-contents ul li span {
+    color: rgb(128, 231, 245);
+    font-size: 14px;
+}
+.tab-contents ul li  a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+   
+}
+
+.tab-contents {
+    display: none;
+    
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+#page3{
+    padding: 80px 200px;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 40px;
+}
+#page3 .card1 i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: center;
+}
+#page3 .card1 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+#page3 .card1{
+    transition:  1s ;
+}
+#page3 .card1:hover{
+    background-color: rgb(128, 231, 245);
+    transform: translateY(-10px);
+}
+.img3{
+    width: 86px;
+}
+.h1{
+    padding: 54px 0px 0px 200px;
+}
+.card1{
+    background-color: #262626;
+    border-radius: 15px;
+    padding: 40px;
+    line-height: 17px;
+}
+
+.card1 a{
+    color: white;
+ }
+
+ #page4{
+    padding: 80px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+#page4 .card2{
+    transition: 0.5s;
+}
+#page4 .card2:hover{
+    transform: translateY(-10px);
+}
+#page4 .card2 img{
+    width: 350PX;
+    border-radius: 10px;
+    box-shadow:0px -1px 4px 0px slategrey;
+}
+.bu{
+    height: 200px;
+    position: relative;
+}
+.button{
+    margin: 0;
+    position: absolute;
+    top: -43px;
+    left: 625px;
+}
+.button button{
+    width: 190px;
+    height: 60px;
+    background-color: black;
+    margin: 10px;
+    border: rgb(128, 231, 245) solid 1px;
+    color: white;
+    font-family: 'Shippori Antique B1', sans-serif;
+    border-radius: 10px;
+    transition:  0.5s;
+    font-size: 17px;
+
+    
+}
+.button button:hover{
+   background-color:rgb(128, 231, 245) ;
+   color: black;
+   transform: translatey(-10px);
+   cursor: pointer;
+}
+#page5{
+    padding: 0px 0px 4gi0px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 302px;
+}
+#page5 .part1 img{
+    height: 30px;
+}
+#page5 .part1 .contact .p1{
+    display: flex;
+    position: relative;
+     }
+    #page5 .part1 .contact .p1 h3{
+    position: relative;
+    top: -14px;
+    left: 15px;    
+    font-family: 'Montserrat', sans-serif;
+}
+    #page5 .part1 .contact .reseaux i{
+        padding: 0px 0px 0px 30px;
+        font-size: 30px;
+        color: gray;
+        transition: 0.5s;    
+}
+    #page5 .part1 .contact .reseaux i:hover{
+        transform: translateY(-10px);
+        color:rgb(128, 231, 245) ;
+}
+    #page5 .cv a{
+        color: white;
+        margin: 25px;
+        line-height: 120px;
+      
+        font-family: 'Shippori Antique B1', sans-serif;
+        font-size: 17px;
+        border:rgb(128, 231, 245) solid 1px;
+        border-radius: 10px;
+        padding: 20px;
+        transition: 0.5s;
+}
+    #page5 .cv a:hover{
+        background-color: rgb(128, 231, 245);
+        color: black;
+
+}
+    
+    #page5 .part2 form input {
+        width: 500px;
+        height: 20px;
+        margin: 10px;
+        background-color: rgb(43, 41, 41);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-family: 'Gloock', serif;
+        font-size: 17px;
+        padding: 20px;
+        color: white;
+        transition: 0.5s;
+}
+    #page5 .part2 form textarea{
+        width:500px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: rgb(43, 41, 41);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-family: 'Gloock', serif;
+        font-size: 17px;
+        padding: 20px;
+        color: white;
+        
+}
+    #page5 .part2 form input:hover{
+        font-size: 19px;
+}
+    .button3{
+        padding: 40px 0px 0px 210px;
+}
+    .button3 .bu3 button{
+        width: 150px;
+        height: 50px;
+        background-color: black;
+        border:rgb(128, 231, 245) solid 1px ;
+        border-radius: 10px;
+        color: white;
+        position: relative;
+        left: 10px;
+        font-family: 'Shippori Antique B1', sans-serif;
+        font-size: 17px;
+        padding: 10px;
+        transition: 0.5s;
+}
+    .button3 .bu3 button:hover{
+        background-color: rgb(128, 231, 245);
+        transform: translatey(-10px);
+        color: black;
+        cursor: pointer;
+}
+@media  (max-width: 390px) {
+    #header .navbar{
+        display: none;
+    }
+    #header{
+        padding: 2px 20px ;
+        height: 27vh;
+        background-position: none;
+    }
+    
+    #header .page .icon i{
+        display: flex;
+        position: relative;
+    right: -78px;
+    }
+    h1{
+        font-size:16px;
+    }
+    p{
+        font-size: 8px;
+        font-family: 'Gloock', serif;
+        
+     }
+    #header .info1{
+        letter-spacing: 2px;
+        padding-top: 43px;
+    
+    }
+    #page2 {
+       display: block;
+       padding: 2px 20px ;
+    }
+   
+    #page2 .info{
+        padding: 2px 0px;
+        position: relative;
+        top: -163px;
+         }
+    #page2 .img2 img{
+        width: 111px;
+        position: relative;
+        left: 199px;
+        top: -132px;
+    }
+    #page2 .info .tab-titles{
+        margin: 8px -3px -31px;
+        
+    }
+    #page2 .info .tab-titles p{
+        font-size: 11px;
+    }
+    #page2 .info .tab-contents ul{
+        margin: 23px 0px -200px -44px;
+        gap: 17px;
+    }
+    .h1{
+        padding: 34px 20px;
+    }
+    #page3{
+        padding: 0px 110px;
+        display: grid;
+    } ;
+    
+    #page3 .card1{
+        width: 124px;
+    padding: 18px;
+    height: 293px;
+    }
+    #page3 .card1 h1{
+        font-size: 15px;
+    }
+    #page4{
+        padding: 0px 110px;
+        display: grid;
+    } 
+    
+    #page4 .card2 h1{
+        font-size: 15px;
+    }
+    #page4 .card2 img{
+        width: 214PX;
+        border-radius: 10px;
+        box-shadow:0px -1px 4px 0px slategrey;
+    }
+  .button{
+        position: absolute;
+        top: 27px;
+        left: 135px;
+    }
+    .button button{
+        width: 136px;
+        height: 50px;
+        font-size: smaller;
+    }
+    #page5{
+        display: grid;
+        padding: 0px 12px;
+        gap: 0px;
+
+    }
+    #page5 .part1 .contact .p1 h3{
+        font-size: 13px;
+    }
+    #page5 .part1 img{
+        height: 19px;
+    }
+    #page5 .part1 .contact .reseaux i{
+        font-size: 17px;
+        }
+        #page5 .cv a{
+            padding: 15px;
+    font-size: 14px;
+    margin-left: 137px;
+        }
+        #page5 .part2 form input{
+            width: 337px;
+            height: 14px;
+            margin: 4px;
+            padding: 11px;
+            font-size: x-small;
+        }
+        #page5 .part2 form textarea{
+            padding: 10px;
+    width: 342px;
+    margin-left: 2px;
+    margin-top: 4px;
+    font-size: x-small;
+        }
+        .button3{
+            padding: 19px 0px 21px 117px;
+        }
+        .button3 .bu3 button{
+            width: 136px;
+            font-size: smaller;
+        }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+@media (min-width: 992px)  {
+    
+}
+@media (min-width: 1200px) {
+    
+}
