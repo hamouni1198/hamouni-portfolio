@@ -367,6 +367,7 @@ ul {
         background-color: rgba(255, 255, 255, 0.808);
         backdrop-filter: blur(40px);
         z-index: 100;
+        left: -500px;
         top: 0px;
         justify-content: center;
         align-items: center;
@@ -387,7 +388,7 @@ ul {
         display: block;
         font-size: 30px;
         position: relative;
-        top: -403px;
+        top: -390px;
         left: 223px;
         
     }
