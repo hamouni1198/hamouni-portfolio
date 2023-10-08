@@ -37,6 +37,9 @@ h1{
     
    
 }
+#header .navbar i{
+    display: none;
+}
 .page{
     display:flex;
     align-items:center;
@@ -381,6 +384,7 @@ ul {
           
     }
     #header .navbar i{
+        display: block;
         font-size: 30px;
         position: relative;
         top: -350px;
