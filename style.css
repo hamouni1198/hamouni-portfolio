@@ -367,7 +367,6 @@ ul {
         background-color: rgba(255, 255, 255, 0.808);
         backdrop-filter: blur(40px);
         z-index: 100;
-        left: -100%;
         top: 0px;
         justify-content: center;
         align-items: center;
@@ -381,14 +380,15 @@ ul {
        align-items: center; 
        line-height: 70px;
        font-size: 20px;
-          
+        position: relative;
+        left: -30px;
     }
     #header .navbar i{
         display: block;
         font-size: 30px;
         position: relative;
-        top: -323px;
-    left: 323px;
+        top: -403px;
+        left: 223px;
         
     }
     #header .navbar ul li a{
@@ -405,7 +405,7 @@ ul {
     #header .page .icon i{
         display: flex;
         position: relative;
-        right: -115px;
+        right: -80px;
         
     }
     h1{
@@ -506,7 +506,7 @@ ul {
         #page5 .cv a{
             padding: 15px;
     font-size: 14px;
-    margin-left: 70px;
+    margin-left: 130px;
         }
         #page5 .part2 form input{
             width: 337px;
