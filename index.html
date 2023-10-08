@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="image/Black_White_Minimalist_SImple_Monogram_Typography_Logo-removebg-preview (2).png" />
     <script defer src="https://friconix.com/cdn/friconix.js"></script>
@@ -25,7 +27,9 @@
                             <div class="logo">
                                 <h1>H<span>A </h1>
                             </div>
-                            <div class="navbar">
+                            <div class="navbar" id="navbar">
+                                <i class="ri-close-line" style="color: rgb(128, 231, 245);
+                                "  onclick="closeNav()"></i>
                                 <ul>
                                     <li><a href="#info1">Home</a></li>
                                     <li><a href="#page2">About</a></li>
@@ -34,8 +38,11 @@
                                     <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
+                            
                             <div class="icon">
-                                <i class="fa fa-bars" style="color: rgb(128, 231, 245);" onclick="ovrire"></i>
+                                <i class="fa fa-bars" style="color: rgb(128, 231, 245);" id="openn" onclick="openNav()"></i>
+                                
+
                             </div>
                             
                         </div>
@@ -58,6 +65,7 @@
               HTML/CSS, et je suis enthousiaste à l'idée de les approfondir davantage. Mon approche face aux défis techniques est de les
              considérer comme des opportunités d'apprentissage, et je suis persévérant dans la résolution de problèmes.
              deleniti neque officiis nobis. Tenetur, inventore.</p>
+             
              <div class="tab-titles">
                 <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
                 <p class="tab-links" onclick="openTab('experience')">Experience</p>
@@ -106,8 +114,9 @@
                 adipisci voluptates excepturi, veritatis ab reprehenderit 
                 </p>
                 <a href="">see more</a>
-                
+
         </div>
+
         <div class="card1">
             <i class="fa-solid fa-code"></i>
             <h1>Web Development</h1>
