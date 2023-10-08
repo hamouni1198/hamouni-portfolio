@@ -489,14 +489,11 @@ ul {
     }
     #page5{
         display: grid;
-        padding: 0px 94px;
+        padding: 0px 20px;
         gap: 0px;
 
     }
-    #page5 .part1 h1{
-        position: relative;
-        left: -70px;
-    }
+    
     #page5 .part1 .contact .p1 h3{
         font-size: 13px;
     }
