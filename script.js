@@ -34,7 +34,7 @@ function sendMail() {
       }
       
       function closeNav() {
-        document.getElementById("navbar").style.left = "-100%";
+        document.getElementById("navbar").style.left = "-500%";
       }
 
 
