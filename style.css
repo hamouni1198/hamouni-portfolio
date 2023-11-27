@@ -34,8 +34,6 @@ h1{
     background-size:contain;
     background-repeat: no-repeat;
     background-position:300px;
-    
-   
 }
 #header .navbar i{
     display: none;
@@ -358,7 +356,8 @@ ul {
         color: black;
         cursor: pointer;
 }
-@media  (max-width: 624px) {
+
+@media (max-width: 430px){
     #header .navbar{
         display: flex;
         position: absolute;
@@ -372,6 +371,9 @@ ul {
         justify-content: center;
         align-items: center;
         transition: all .5s;
+    }
+    #header .navbar .page .logo h1{
+        
     }
   
     #header .navbar ul{
@@ -388,8 +390,8 @@ ul {
         display: block;
         font-size: 30px;
         position: relative;
-        top: -390px;
-        left: 223px;
+        top: -519px;
+        left: 244px;
         
     }
     #header .navbar ul li a{
@@ -399,28 +401,31 @@ ul {
         padding: 2px 0px ;
         height: 27vh;
         background-size: 0px;
-        
+    }
+    #header .logo{
+        padding-left: 10px;
     }
 
     
     #header .page .icon i{
         display: flex;
         position: relative;
-        right: -80px;
+        right: -100px;
         
     }
     h1{
-        font-size:16px;
+        font-size:22px;
     }
     p{
-        font-size: 8px;
+        font-size: 12px;
         font-family: 'Gloock', serif;
         
      }
     #header .info1{
         letter-spacing: 2px;
         padding-top: 43px;
-    
+        padding-left: 17px;
+
     }
     #page2 {
        display: block;
@@ -430,13 +435,13 @@ ul {
     #page2 .info{
         padding: 2px 0px;
         position: relative;
-        top: -163px;
+        top: -250px;
          }
     #page2 .img2 img{
         width: 111px;
         position: relative;
-        left: 199px;
-        top: -132px;
+        left: 242px;
+        top: -206px;
     }
     #page2 .info .tab-titles{
         margin: 8px -3px -31px;
@@ -450,33 +455,31 @@ ul {
         gap: 17px;
     }
     .h1{
-        padding: 34px 20px;
+        padding: 0px 20px;
     }
     #page3{
-        padding: 0px 110px;
+        padding: 0px 25px;
         display: grid;
-    } ;
+    } 
     
-    #page3 .card1{
-        width: 124px;
-    padding: 18px;
-    height: 293px;
-    }
+   
     #page3 .card1 h1{
         font-size: 15px;
     }
     #page4{
-        padding: 0px 110px;
+        padding: 0px 25px;
         display: grid;
     } 
-    
+    #page4  h1{
+        padding-left:-10px ;
+    }
     #page4 .card2 h1{
         font-size: 15px;
     }
     #page4 .card2 img{
-        width: 214PX;
+        width: 384PX;
         border-radius: 10px;
-        box-shadow:0px -1px 4px 0px slategrey;
+        box-shadow: 2px 2px 0px 0px slategrey;
     }
   .button{
         position: absolute;
@@ -490,7 +493,7 @@ ul {
     }
     #page5{
         display: grid;
-        padding: 0px 20px;
+        padding: 0px 25px;
         gap: 0px;
 
     }
@@ -503,40 +506,79 @@ ul {
     }
     #page5 .part1 .contact .reseaux i{
         font-size: 17px;
+    }
+    #page5 .cv a{
+        padding: 15px;
+        font-size: 14px;
+        margin-left: 130px;
         }
-        #page5 .cv a{
-            padding: 15px;
-    font-size: 14px;
-    margin-left: 130px;
-        }
-        #page5 .part2 form input{
-            width: 337px;
-            height: 14px;
-            margin: 4px;
-            padding: 11px;
-            font-size: x-small;
-        }
-        #page5 .part2 form textarea{
-            padding: 10px;
-    width: 342px;
-    margin-left: 2px;
-    margin-top: 4px;
-    font-size: x-small;
-        }
-        .button3{
-            padding: 19px 0px 21px 117px;
-        }
-        .button3 .bu3 button{
-            width: 136px;
-            font-size: smaller;
-        }
-}
-@media (min-width: 768px) and (max-width: 991px) {
+    #page5 .part2 form input{
+        width: 337px;
+        height: 14px;
+        margin: 4px;
+        padding: 11px;
+        font-size: x-small;
+    }
+    #page5 .part2 form textarea{
+        padding: 10px;
+        width: 342px;
+        margin-left: 2px;
+        margin-top: 4px;
+        font-size: x-small;
+    }
+    .button3{
+        padding: 19px 0px 21px 117px;
+    }
+    .button3 .bu3 button{
+        width: 136px;
+        font-size: smaller;
+    }
+    .bu{
+        height: 111px;
+    }
+  
     
-}
-@media (min-width: 992px)  {
+     }
+ 
+  @media (max-width: 414px){
+    .h1{
+        padding: 0px 14px;
+    }
+    #page3{
+        padding: 0px 14px;
+    }
+    #page4{
+        padding: 0px 14px;
+    }
+    #page5{
+        padding: 0px 14px;
+    }
     
-}
-@media (min-width: 1200px) {
+   
     
-}
+  }
+  @media (max-width: 390px){
+    
+    #page4 .card2 img{
+        width: 360PX;
+        
+    }
+    
+    
+  }
+  @media (max-width: 375px){
+    
+    #page4 .card2 img{
+        width: 345PX;
+        
+    }
+    #page5 .part2 form input{
+        width: 320px;
+    }
+    #page5 .part2 form textarea{
+        width: 320px;
+        margin-left: 5px;
+    }
+    
+    
+  }
