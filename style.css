@@ -565,7 +565,14 @@ ul {
     #page5{
         padding: 0px 14px;
     }
-    
+    #header .navbar i{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        top: -350px;
+        left: 240px;
+        
+    }
    
     
   }
