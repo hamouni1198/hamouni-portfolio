@@ -390,8 +390,8 @@ ul {
         display: block;
         font-size: 30px;
         position: relative;
-        top: -519px;
-        left: 244px;
+        top: -435px;
+        left: 248px;
         
     }
     #header .navbar ul li a{
@@ -414,7 +414,7 @@ ul {
         
     }
     h1{
-        font-size:22px;
+        font-size:19px;
     }
     p{
         font-size: 12px;
@@ -429,7 +429,7 @@ ul {
     }
     #page2 {
        display: block;
-       padding: 2px 20px ;
+       padding: 20px 20px ;
     }
    
     #page2 .info{
@@ -441,7 +441,7 @@ ul {
         width: 111px;
         position: relative;
         left: 242px;
-        top: -206px;
+        top: -200px;
     }
     #page2 .info .tab-titles{
         margin: 8px -3px -31px;
@@ -539,7 +539,19 @@ ul {
   
     
      }
- 
+     @media (max-width: 428px){
+        #page5 .part2 form input{
+            width: 360px;
+            height: 14px;
+          
+            
+        }
+        #page5 .part2 form textarea{
+            width: 360px;
+            margin-left:5px;
+        }
+
+     }
   @media (max-width: 414px){
     .h1{
         padding: 0px 14px;
@@ -563,15 +575,44 @@ ul {
         width: 360PX;
         
     }
+    #header .navbar i{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        top: -390px;
+        left: 235px;
+        
+    }
+    #page5 .part2 form input{
+        width: 340px;
+        height: 14px;
+      
+        
+    }
+    #page5 .part2 form textarea{
+        width: 340px;
+        margin-left:5px;
+    }
     
     
   }
   @media (max-width: 375px){
     
-    #page4 .card2 img{
-        width: 345PX;
+     
+    #page2{
+        padding: 88px 14px 0px 14px;
+    }#header .navbar i{
+        display: block;
+        font-size: 30px;
+        position: relative;
+        top: -305px;
+    left: 231px;
+    
+
         
     }
+    
+    
     #page5 .part2 form input{
         width: 320px;
     }
@@ -579,6 +620,9 @@ ul {
         width: 320px;
         margin-left: 5px;
     }
-    
+    #page4 .card2 img{
+        width: 350PX;
+        
+    }
     
   }
